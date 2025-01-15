@@ -7,6 +7,6 @@ class Food : public Shape
 public:
 	Food();
 
-	void PlaceFood();
+	sf::Vector2f GetFoodPosition();
 };
 
